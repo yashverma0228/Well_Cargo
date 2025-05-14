@@ -3451,9 +3451,9 @@ a.bringer-arrow-link {
 
 .partners-strip {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     /* Space between logos */
-    animation: scroll-logos 20s linear infinite;
+    animation: scroll-logos 10s linear infinite;
     /* Continuous scrolling */
 }
 
@@ -3461,7 +3461,7 @@ a.bringer-arrow-link {
     height: 80px;
     /* Adjust height to match design */
     object-fit: contain;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: opacity 0.3s ease;
 }
 
@@ -3476,7 +3476,7 @@ a.bringer-arrow-link {
     }
 
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-200%);
     }
 }
 
