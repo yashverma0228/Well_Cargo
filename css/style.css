@@ -3449,6 +3449,42 @@ a.bringer-arrow-link {
     position: relative;
 }
 
+.swiper-slide {
+    position: relative;
+}
+
+.slide-text {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: #fff;
+    text-align: left;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide-text h2 {
+    font-size: 5.5rem;
+    margin: 0;
+}
+
+.slide-text p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+.swiper-slide-active .slide-text {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.swiper-slide-prev .slide-text,
+.swiper-slide-next .slide-text {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
 .partners-strip {
     display: flex;
     gap: 40px;
