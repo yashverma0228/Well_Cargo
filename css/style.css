@@ -3476,7 +3476,7 @@ a.bringer-arrow-link {
     }
 
     100% {
-        transform: translateX(-200%);
+        transform: translateX(-150%);
     }
 }
 
